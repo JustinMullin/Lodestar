@@ -1613,8 +1613,10 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bdbcdd" />
+        <option name="FOREGROUND" value="9ee9af" />
+        <option name="BACKGROUND" value="1c3223" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="306042" />
         <option name="ERROR_STRIPE_COLOR" value="357ddd" />
       </value>
     </option>
