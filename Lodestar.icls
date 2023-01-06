@@ -1,10 +1,10 @@
 <scheme name="Lodestar" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-12-02T20:59:29</property>
+    <property name="created">2023-01-06T10:55:42</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.3.0.0</property>
-    <property name="modified">2022-12-02T20:59:31</property>
+    <property name="ideVersion">2022.3.1.0.0</property>
+    <property name="modified">2023-01-06T10:55:45</property>
     <property name="originalScheme">Lodestar</property>
   </metaInfo>
   <option name="LINE_SPACING" value="0.95" />
@@ -20,6 +20,7 @@
     <option name="CARET_COLOR" value="778292" />
     <option name="CARET_ROW_COLOR" value="2f3240" />
     <option name="CONSOLE_BACKGROUND_KEY" value="333333" />
+    <option name="DOCUMENTATION_COLOR" value="323844" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
@@ -39,6 +40,7 @@
     <option name="INDENT_GUIDE" value="494949" />
     <option name="INFORMATION_HINT" value="32a5a5" />
     <option name="LINE_NUMBERS_COLOR" value="a0a0a0" />
+    <option name="LOOKUP_COLOR" value="323844" />
     <option name="METHOD_SEPARATORS_COLOR" value="4d4d4d" />
     <option name="MODIFIED_LINES_COLOR" value="485158" />
     <option name="NOTIFICATION_BACKGROUND" value="" />
@@ -135,13 +137,6 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a2323" />
-      </value>
-    </option>
-    <option name="CLASS_NAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="2b2b2b" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -554,12 +549,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffd376" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="9373a5" />
@@ -616,9 +606,14 @@
     <option name="KOTLIN_ANNOTATION">
       <value />
     </option>
+    <option name="KOTLIN_LABEL">
+      <value>
+        <option name="FOREGROUND" value="88ac7d" />
+      </value>
+    </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="c1bd81" />
+        <option name="FOREGROUND" value="eee28f" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -729,11 +724,6 @@
     <option name="OC_FORMAT_TOKEN">
       <value>
         <option name="FOREGROUND" value="cc7832" />
-      </value>
-    </option>
-    <option name="PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffd376" />
       </value>
     </option>
     <option name="PHP_EXEC_COMMAND_ID">
@@ -916,17 +906,8 @@
         <option name="FOREGROUND" value="cc7833" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffd376" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffd376" />
-      </value>
-    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value />
     </option>
